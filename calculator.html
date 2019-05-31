@@ -6,6 +6,12 @@ function cube() {
  num.value = Math.pow(num.value, 3);
 }
 </script>
+<script type="text/javascript">
+function sin() {
+ var num = document.getElementById("n1");
+ num.value = Math.sin(num.value);
+}
+</script>
 </head>
 <body>
  <h1>Calculadora de Victor Amaro</h1>
@@ -13,6 +19,9 @@ function cube() {
  <input type="text" id="n1">
  <p>
  <button onclick="cube()"> x^3 </button>
+ </p>
+ <p>
+ <button onclick="sin()"> sin(x) </button>
  </p>
 </body>
 </html>
